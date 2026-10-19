@@ -40,13 +40,9 @@ Clients can browse curated styling services and discounted package bundles, sele
 
 ## Video Demonstration
 
+https://github.com/user-attachments/assets/56db0fc2-5d5c-4197-a155-8ceecaf45f1b
+
 <div align="center">
-
-<video src="https://github.com/trxshi747/Barbershop/raw/master/docs/demo/barbershop-demo.mp4" controls muted width="100%"></video>
-
-[Ouvrir la vidéo en plein écran](docs/demo/barbershop-demo.mp4)
-
-<br />
 
 *Full end-to-end platform demonstration showcasing client reservations, barber calendar scheduling, and administrator oversight.*
 
