@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/41d4ec09-2565-4cd6-b577-d4d0c9a5972f
+
 ﻿<div align="center">
 
 # BarberShop - Salon & Hairdresser Appointment Booking Platform
@@ -44,7 +48,8 @@ Clients can browse curated styling services and discounted package bundles, sele
 
 ## Video Demonstration
 
-https://github.com/user-attachments/assets/56db0fc2-5d5c-4197-a155-8ceecaf45f1b
+https://github.com/user-attachments/assets/10ed0de4-9d2a-44c2-8360-37765e110623
+
 
 <div align="center">
 
