@@ -15,8 +15,6 @@
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![FullCalendar](https://img.shields.io/badge/FullCalendar-3788D8?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://fullcalendar.io/)
 [![PayPal](https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://developer.paypal.com/)
-[![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)](https://developers.google.com/maps)
-
 <br />
 
 <p align="center">
@@ -152,7 +150,7 @@ The relational schema coordinates the salon operational workflow:
 | **Architecture** | Model-View-Controller (MVC), Service Architecture, Custom Middlewares |
 | **Frontend & UI** | Blade Templating, Bootstrap 4/5, Tailwind CSS (CDN), jQuery, Sass, Font Awesome, Google Fonts, Custom CSS |
 | **Calendar** | FullCalendar 5 (barber and admin scheduling) |
-| **Integrations** | PayPal JS SDK (payments), Google Maps JavaScript API (salon location) |
+| **Integrations** | PayPal JS SDK (payments) |
 | **Build Tooling** | Vite, NPM, Axios |
 | **Database** | MySQL / MariaDB (Eloquent ORM, Migrations, Seeders) |
 | **Authentication** | Laravel Authentication with multi-guard role separation |
