@@ -1,7 +1,5 @@
 
 
-https://github.com/user-attachments/assets/41d4ec09-2565-4cd6-b577-d4d0c9a5972f
-
 ﻿<div align="center">
 
 # BarberShop - Salon & Hairdresser Appointment Booking Platform
