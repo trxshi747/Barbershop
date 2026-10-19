@@ -1,0 +1,78 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 27/09/2018 06:27
+  	*/
+  	
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/font/Flaticon.eot");
+  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
+       url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fi-tr-customer-care {
+  vertical-align: middle;
+  margin-right: -5px;
+  margin-top: 10px;
+}
+
+.fi-ts-shield-check {
+  vertical-align: middle;
+  margin-right: 2 px;
+  margin-top: 15px;
+}
+
+.fi-tr-smile-beam  {
+  vertical-align: middle;
+  margin-right: -1 px;
+  margin-top: 6px;
+}
+
+.fi-tr-review  {
+  vertical-align: middle;
+  margin-right: 1 px;
+  margin-top: 6px;
+}
+
+.fi-tr-rectangle-pro  {
+  vertical-align: middle;
+  margin-right: 1 px;
+  margin-top: 6px;
+}
+
+.fi-tc-american-sign-language-interpreting  {
+  vertical-align: middle;
+  margin-right: 1 px;
+  margin-top: 6px;
+}
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-coffee-cup:before { content: "\f100"; }
+.flaticon-choices:before { content: "\f101"; }
+.flaticon-coffee-bean:before { content: "\f102"; }
+

@@ -1,0 +1,119 @@
+body {
+  background: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* N'afficher le menu que pour les utilisateurs authentifiés */
+body.not-authenticated .side-nav {
+  display: none !important;
+}
+
+/* Wrapper général */
+#wrapper {
+  padding: 90px 15px;
+  transition: all 0.3s ease;
+}
+
+.navbar-expand-lg .navbar-nav.side-nav {
+  flex-direction: column;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.header-top {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: linear-gradient(to right, #2c3e50, #4b6cb7);
+}
+
+.header-top .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.8);
+  transition: color 0.2s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+@media(min-width:992px) {
+  #wrapper {
+      margin-left: 230px;
+      padding: 90px 25px 25px;
+  }
+
+  /* Ajuster le wrapper quand l'utilisateur n'est pas connecté */
+  body.not-authenticated #wrapper {
+      margin-left: 0;
+  }
+
+  .navbar-nav.side-nav {
+      background: #2c3e50;
+      box-shadow: 3px 0 10px rgba(0,0,0,0.15);
+      position: fixed;
+      top: 56px;
+      flex-direction: column!important;
+      left: 0;
+      width: 230px;
+      overflow-y: auto;
+      bottom: 0;
+      overflow-x: hidden;
+      padding-bottom: 40px;
+      z-index: 1000;
+  }
+
+  .side-nav .nav-item {
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .side-nav .nav-item:last-child {
+      border-bottom: none;
+  }
+
+  .side-nav .nav-link {
+      padding: 15px 20px;
+      color: rgba(255,255,255,0.7);
+      transition: all 0.3s ease;
+  }
+
+  .side-nav .nav-link:hover {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      padding-left: 25px;
+  }
+}
+
+/* Style pour formulaires */
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #e2e2e2;
+  padding: 10px 15px;
+}
+
+/* Style pour boutons */
+.btn-primary {
+  background: #4b6cb7;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #3a5795;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(75, 108, 183, 0.4);
+}
