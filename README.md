@@ -15,6 +15,7 @@
 
 <p align="center">
   <a href="#overview">Overview</a> |
+  <a href="#video-demonstration">Video Demo</a> |
   <a href="#key-features">Key Features</a> |
   <a href="#role-based-architecture">Role Capabilities</a> |
   <a href="#system-architecture">Architecture</a> |
@@ -22,7 +23,7 @@
   <a href="#tech-stack">Tech Stack</a> |
   <a href="#getting-started">Getting Started</a> |
   <a href="#repository-structure">Structure</a> |
-  <a href="#author">Author</a>
+  <a href="#authors">Authors</a>
 </p>
 
 </div>
@@ -34,6 +35,20 @@
 **BarberShop** is a modern appointment booking and management platform designed for hair salons and barbershops. Built with the **Laravel** framework, it connects clients, barbers, and salon managers within a cohesive, role-segregated ecosystem.
 
 Clients can browse curated styling services and discounted package bundles, select available dates, book appointments in real time, and proceed through checkout. Barbers have dedicated access to manage their dynamic availability calendar and schedule. Administrators oversee salon operations through a central dashboard managing bookings, staff, service catalogs, and customer feedback.
+
+---
+
+## Video Demonstration
+
+<div align="center">
+
+https://github.com/trxshi747/Barbershop/raw/master/docs/demo/barbershop-demo.mp4
+
+<br />
+
+*Full end-to-end platform demonstration showcasing client reservations, barber calendar scheduling, and administrator oversight.*
+
+</div>
 
 ---
 
@@ -228,6 +243,8 @@ Barbershop/
 |-- routes/
 |   \-- web.php                   # All public, client, barber, and admin web routes
 |
+|-- docs/
+|   \-- demo/                     # Video walkthrough demonstration
 |-- .env.example                  # Environment template
 |-- .gitignore                    # Version control ignore rules
 |-- composer.json                 # PHP dependencies
@@ -237,6 +254,9 @@ Barbershop/
 
 ---
 
-## Author
+## Authors
 
-Developed by **[trxshi747 (Yassir Karrouti)](https://github.com/trxshi747)**.
+Project developed by:
+* **[trxshi747 (Yassir Karrouti)](https://github.com/trxshi747)**
+* **Soukaina Sabbar**
+
