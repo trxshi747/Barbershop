@@ -42,7 +42,9 @@ Clients can browse curated styling services and discounted package bundles, sele
 
 <div align="center">
 
-<video src="https://github.com/user-attachments/assets/d72a2c5a-3099-4fd1-8adb-a003fa153cfa" controls="controls" width="100%"></video>
+<video src="https://github.com/trxshi747/Barbershop/raw/master/docs/demo/barbershop-demo.mp4" controls muted width="100%"></video>
+
+[Ouvrir la vidéo en plein écran](docs/demo/barbershop-demo.mp4)
 
 <br />
 
