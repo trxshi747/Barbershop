@@ -10,6 +10,12 @@
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![FullCalendar](https://img.shields.io/badge/FullCalendar-3788D8?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://fullcalendar.io/)
+[![PayPal](https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://developer.paypal.com/)
+[![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)](https://developers.google.com/maps)
 
 <br />
 
@@ -142,12 +148,15 @@ The relational schema coordinates the salon operational workflow:
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Backend Framework** | Laravel 10 / 11 (PHP 8.2+) |
+| **Backend Framework** | Laravel 10 (PHP 8.1+), Laravel UI, Laravel Sanctum, Guzzle |
 | **Architecture** | Model-View-Controller (MVC), Service Architecture, Custom Middlewares |
-| **Frontend & UI** | Blade Templating, Bootstrap 4/5, SASS, Custom CSS |
-| **Build Tooling** | Vite, NPM |
+| **Frontend & UI** | Blade Templating, Bootstrap 4/5, Tailwind CSS (CDN), jQuery, Sass, Font Awesome, Google Fonts, Custom CSS |
+| **Calendar** | FullCalendar 5 (barber and admin scheduling) |
+| **Integrations** | PayPal JS SDK (payments), Google Maps JavaScript API (salon location) |
+| **Build Tooling** | Vite, NPM, Axios |
 | **Database** | MySQL / MariaDB (Eloquent ORM, Migrations, Seeders) |
 | **Authentication** | Laravel Authentication with multi-guard role separation |
+| **Testing & Dev Tools** | PHPUnit, Laravel Pint, Laravel Sail, Faker |
 
 ---
 
